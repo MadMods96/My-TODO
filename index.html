@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>My TO-DO</title>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <Div class="navbar bg-warning">
+        <h1 class="text-light mx-auto">TO-DO</h1>
+    </Div>
+    <div class="container p-5">
+    <form class="d-grid w-50 mx-auto">
+        <label for="title">Whats the title?</label>
+        <input type="text" name="Name" id="title">
+        <label for="desc">Whats the To-Do for?</label>
+        <input type="text" name="Desc" id="desc">
+        <input type="button" class="p-2 w-50 mx-auto mt-4 bg-warning" id="btn" value="ADD">
+    </form>
+</div>
+<div class="myheader bg-warning p-1" >
+</div>
+    <div class="container">
+        <div id="main-sample" class="shadow-lg mb-5 bg-body w-50 mt-2 mx-auto">
+        <div id="sample" class="mt-2 mx-auto bg-warning p-3 rounded">
+            <div class="newClass" id="sample1"></div>
+            <p id="hideme">Your items will be displayed here..!</p>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
